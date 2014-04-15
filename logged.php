@@ -1,12 +1,12 @@
 <html>
 	<head>
 		<title></title>
-		<LINK rel="stylesheet" href="styles/inicio.css" type="text/css">
+		<LINK rel="stylesheet" href="styles/logged.css" type="text/css">
 	</head>
 	<body>
 		<div class="left"><div>
 		<div class="center">
-			<div class="logged"></div>
+			<div class="logged"><span class="delivery">DELIVERI ONLINE</span> Bienvenido, visitante <a class="logout" href="inicio.php">Salir</a></div>
 			<div class="logo">
 				<img src="img/logoishidan.png" alt="Ishidan"/>
 			</div>
@@ -52,7 +52,7 @@
 			<div class="footer">
 				<div class="flechaIz"><img src="img/flecha.png"/></div>
 				<div class="subFooter"><span>Hurligam:Av.Jauretche 1401 Tel:4665-3879 y 4665-8749</span></br><span>Abrimos de martes a domingos de 19:15 a 23:00 hs.</span></div>
-				<div class="flechaDe"><img class="imgDe" src="img/flecha.png"/></div>
+				<div class="flechaDe"><img src="img/flecha.png"/></div>
 			</div>
 		</div>
 		<div class="right"></div>

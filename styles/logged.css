@@ -2,15 +2,34 @@ BODY{
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	font-weight: bold;
 }
+a{
+	color:orange;
+    text-decoration: none;
+}
+a.logout{
+	margin-right:80px;
+}
 .center{
 	width:900px;
 }
 .logged{
-	background-color:orange;
+	background-color:black;
 	width:100%;
-	height:3px;
+	height:30px;
+	border-top:3px;
+	border-top-style:solid;
+	border-color:orange;
+	text-align: right;
+	font-size: 9px;
+	color:grey;
+}
+.logged span{
+}
+span.delivery {
+	font-size: 12px;
 }
 .logo{
+	
 	background-color:black;
 	padding-left: 15px;
 }
@@ -138,10 +157,4 @@ span.title{
 }
 .flechaDe{
 	float:left;
-}
-.imgDe{
-	-o-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);	
 }
